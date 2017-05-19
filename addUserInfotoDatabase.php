@@ -21,10 +21,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$Phone = test_input($_POST["Phone"]);
 	$uname = test_input($_POST["uname"]);
 	$passw = test_input($_POST["pword"]);
-	//e	cho "Welcome $name, <br>";
-	//e	cho "Your Username is: $username<br>Your password is: $passw";
+	//echo "Welcome $name, <br>";
+	//echo "Your Username is: $username<br>Your password is: $passw";
 }
 
+// prevent hacking
 function test_input($data) {
 	$data = trim($data);
 	$data = stripslashes($data);
