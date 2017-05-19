@@ -2,7 +2,7 @@
     if(isset($_POST['Submit']))
     {
 	    //When user clicks <submit> this code will run
-      echo $_POST('name');
+      echo $_POST['name'];
     }
 ?>
 <!DOCTYPE html>
