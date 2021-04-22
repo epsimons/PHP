@@ -1,4 +1,4 @@
-?php
+<?php
     if(isset($_POST['Submit']))
     {
 	    //When user clicks <submit> this code will run
