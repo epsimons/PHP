@@ -3,7 +3,7 @@
 <body>
 
 <?php
-class Cfurniture {
+class furniture {
   public $material;
   public $type;
   public function __construct($material, $type) {
@@ -15,11 +15,11 @@ class Cfurniture {
   }
 }
 
-$myCar = new Car("steel", "chair");
-echo $myCar -> message();
+$myFurniture = new furniture("steel", "chair");
+echo $myFurniture -> message();
 echo "<br>";
-$myCar = new Car("wooden", "Table");
-echo $myCar -> message();
+$myFurniture = new furniture("wooden", "Table");
+echo $myFurniture -> message();
 ?>
 
 </body>
