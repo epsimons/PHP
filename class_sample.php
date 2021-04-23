@@ -4,14 +4,14 @@
 
 <?php
 class Cfurniture {
-  public $color;
   public $material;
-  public function __construct($color, $material) {
-    $this->color = $color;
+  public $type;
+  public function __construct($material, $type) {
     $this->material = $material;
+    $this->type = $type;
   }
   public function message() {
-    return "<p>I just bought a " . $this->color . " " . $this->material . "!</p>";
+    return "<p>I just bought a " . $this->material . " " . $this->type . "!</p>";
   }
 }
 
